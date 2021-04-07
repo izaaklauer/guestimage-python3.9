@@ -1,4 +1,4 @@
 def skyhook(request, meta):
+    print("Hello from guest image")
     # raise Exception("null pointer")
-    return {"hello": request['name']}
-
+    return {"dan": request['name']}
